@@ -12,5 +12,8 @@ Simulation + Machine Learning Demos: https://ilabutk.github.io/Simulation_Machin
 
 [![RL Demo](https://ilabutk.github.io/Simulation_Machine_Learning/images/cover.png)](https://youtu.be/wUTTcUBYZYk)
 
+* Demo of a flock of boids
+
+* Demo of an ED department
 
 * Demo of deep Q-learning network (DQN). A simulation model interacts with DQN built using Python. (to come ...)
