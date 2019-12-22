@@ -2,5 +2,5 @@
 Simulation + Machine Learning Demos:
 
 
-![alt text](https://github.com/ILABUTK/Simulation_Machine_Learning/tree/master/docs/images/cover.png)
-
+Demo of Reinforcement Learning with a simulation model:
+<img src="https://github.com/ILABUTK/Simulation_Machine_Learning/tree/master/docs/images/cover.png" />
