@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Simulation + Machine Learning</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link
+        href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
+        rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="">
+            <div>
+                <iframe width="1000" height="650" allow="fullscreen"
+                    src="https://cloud.anylogic.com/assets/embed?modelId=2ddaa723-9e92-4f01-b52c-2543ed365401"></iframe>
+            </div>           
+
+        </section>
+
+        <section>
+            <p style="color: white">A model of a call center with two types of agents with different skills and two types of incoming calls. The model
+            focuses of call routing. The calls arrive at certain rates and are placed in queues (one queue for each call type). Some
+            callers abandon from the queue after a certain waiting time. There are two agent groups, each trained to handle a
+            particular call type. However the agents are also cross-trained so that they can handle calls of different type, yet
+            less efficiently. The logic for call routing is the following: a call is routed to the “native” agent, if there is one
+            available; otherwise, the call is routed to the “alien” agent, again if the latter is idle. The output metrics in this
+            model are the queue lengths and “service levels” for both call types. All parameters can be changed on-the-fly,
+            including the routing options. Built by AnyLogic.</p>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="actions special copyright">
+                <li><a href="../index.html" class="">Return Home</a></li>
+            </ul>
+
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        if ('addEventListener' in window) {
+            window.addEventListener('load', function () { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+    </script>
+
+</body>
+
+</html>
