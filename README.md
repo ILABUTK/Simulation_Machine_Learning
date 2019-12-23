@@ -1,4 +1,4 @@
-# Simulation_Machine_Learning
+# Power of Simulation + Machine Learning and their applications
 
 Simulation + Machine Learning Demos: https://ilabutk.github.io/Simulation_Machine_Learning/
 
@@ -14,6 +14,12 @@ Simulation + Machine Learning Demos: https://ilabutk.github.io/Simulation_Machin
 
 * Demo of a flock of boids
 
+* Demo of an air defense system
+
 * Demo of an ED department
+
+* Demo of a call center
+
+* Demo of a aircraft fleet planning optimization
 
 * Demo of deep Q-learning network (DQN). A simulation model interacts with DQN built using Python. (to come ...)
