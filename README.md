@@ -27,7 +27,8 @@ boids at runtime.
 
 * Demo of an air defense system (agent-based modeling)
 ```
-A model of an air defense system protecting a number of assets being attacked by aircrafts, made by AnyLogic. The assets are located nearby the seashore and are protected by three radars. Bomber aircrafts are trying to destroy the assets. Each aircraft is assigned a particular asset when launched. Radar has a limited coverage zone and can concurrently control only a
+A model of an air defense system protecting a number of assets being attacked by aircrafts, made by AnyLogic. The assets 
+are located nearby the seashore and are protected by three radars. Bomber aircrafts are trying to destroy the assets. Each aircraft is assigned a particular asset when launched. Radar has a limited coverage zone and can concurrently control only a
 limited number of missiles. You can interactively control several parameters of the model, including the aircraft speed,
 radar properties, etc. This agent based model features continuous time behavior (differential equations) inside the agents.
 ```
@@ -44,17 +45,23 @@ designing new management function, adding bedside registration process.
 * Demo of a call center
 ```
 A model of a call center with two types of agents with different skills and two types of incoming calls. The model
-focuses of call routing. The calls arrive at certain rates and are placed in queues (one queue for each call type). Some
-callers abandon from the queue after a certain waiting time. There are two agent groups, each trained to handle aparticular call type. However the agents are also cross-trained so that they can handle calls of different type, yetless efficiently. The logic for call routing is the following: a call is routed to the “native” agent, if there is oneavailable; otherwise, the call is routed to the “alien” agent, again if the latter is idle. The output metrics in this model are the queue lengths and “service levels” for both call types. All parameters can be changed on-the-fly,including the routing options. Built by AnyLogic.
+focuses of call routing. The calls arrive at certain rates and are placed in queues (one queue for each call type). 
+Some callers abandon from the queue after a certain waiting time. There are two agent groups, each trained to handle a particular call type. However the agents are also cross-trained so that they can handle calls of different type, 
+yet less efficiently. The logic for call routing is the following: a call is routed to the “native” agent, if there is 
+oneavailable; otherwise, the call is routed to the “alien” agent, again if the latter is idle. The output metrics in
+this model are the queue lengths and “service levels” for both call types. All parameters can be changed on-the-fly,
+including the routing options. Built by AnyLogic.
 ```
 
 * Demo of a aircraft fleet planning optimization
 ```
-The model of management of aircraft fleet. Built by AnyLogic. The fleet consists of 20 aircrafts that need regular maintenance. There are
-two types of maintenance: week-based maintenance, which is scheduled according to the amount of weeks the aircraft is
-operated, and Hours-based maintenance is scheduled according to the amount of hours the aircraft has flown since last
-maintenance. The entire fleet has weekly planned rate of effort (in hours). If the fleet did not manage to operate this
-amount of time, the remaining hours (hours to catch up) are added to the next week's plan. You can play with individual rates of effort to minimize the amount of time to catch up. Alternatively, you can use the built-in OptQuest optimizer.
+The model of management of aircraft fleet. Built by AnyLogic. The fleet consists of 20 aircrafts that need regular 
+maintenance. There are two types of maintenance: week-based maintenance, which is scheduled according to the amount 
+of weeks the aircraft is operated, and Hours-based maintenance is scheduled according to the amount of hours the 
+aircraft has flown since last maintenance. The entire fleet has weekly planned rate of effort (in hours). 
+If the fleet did not manage to operate this amount of time, the remaining hours (hours to catch up) are added to the 
+next week's plan. You can play with individual rates of effort to minimize the amount of time to catch up. Alternatively, 
+you can use the built-in OptQuest optimizer.
 ```
 
 * Demo of deep Q-learning network (DQN). A simulation model interacts with DQN built using Python. 
